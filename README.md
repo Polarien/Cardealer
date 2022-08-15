@@ -1,3 +1,0 @@
-# Cardealer
-
-Vi skal bruge 
