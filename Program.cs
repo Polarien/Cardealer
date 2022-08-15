@@ -49,6 +49,7 @@ class Car{
 
 class brand{
 //BMW, AUDI, MERCEDES, FORD, FERRARI
+
 }
 
 class colour{
@@ -56,7 +57,7 @@ class colour{
 }
 
 class gear{
-// MANUEL, AUTOATIC.
+// MANUEL, AUTOMATIC.
 }
 
 class Tires{
