@@ -1,0 +1,90 @@
+@startuml
+
+Class Car {
+
+}
+
+Class Electric{
+
+}
+
+Class Petrol {
+
+}
+
+Petrol <|-- Car
+Electric <|-- Car
+
+Class Brands {
+
+}
+
+Class BMW {
+
+}
+
+Class Audi {
+ 
+ }
+ 
+Class Mercedes {
+
+}
+
+Class Ford {
+
+}
+
+Class Ferrari {
+
+}
+
+Brands <|-- Car
+BMW <|-- Brands
+Mercedes <|-- Brands
+Audi <|-- Brands
+Ford <|-- Brands
+Ferrari <|-- Brands
+
+Class Colours {
+        + void : Color(Green)
+        + void : Color(Red)
+        + void : Color(White)
+        + void : Color(Black)
+        + void : Color(Yellow)
+        + void : Color(Orange)
+        + void : Color(Grey)
+        + void : Color(Blue)
+
+}
+
+Colours<|-- Car
+
+Class Gear  {
+
+}
+
+Class Manuel {
+        + void : gear(1)
+        + void : gear(2)
+        + void : gear(3)
+        + void : gear(4)
+        + void : gear(5)
+        + void : gear(6)
+        + void : gear(Rev)
+}
+
+Class Automatic{
+        + void : gear(Auto)
+        + void : gear(Rev)
+}
+
+Car--|>Gear
+Gear--|>Manuel
+Gear--|>Automatic
+
+
+
+
+
+ @enduml
